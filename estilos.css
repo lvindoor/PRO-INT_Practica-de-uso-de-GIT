@@ -1,0 +1,229 @@
+/* TYPOGRAFIAS */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Rubik+Beastly&display=swap');
+
+/* GENERAL */
+
+body {
+    background: #80c2da;
+    font-family: "Roboto", sans-serif;    
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+main a, footer a {
+    padding: 2px;
+    border: 2px solid #0c465e;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #0c465e;
+}
+
+main a:hover, footer a:hover {
+    border: 2px solid #0c465e;
+    background:  #0c465e;
+    color: white;
+}
+
+/* MENU */
+
+.nav {
+    position: fixed;
+}
+
+.nav ul, .nav li {
+    margin: 0;
+	padding: 0;
+}
+
+.nav ul {
+	background: gray;
+	list-style: none;
+}
+
+.nav li {
+	float: left;
+	position: relative;
+	width: auto;
+}
+
+.nav a {
+	background: #098eaf;
+	color: #FFFFFF;
+    display: block;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.nav li:hover a {
+	background: #0c465e;
+}
+
+
+/* PRINCIPAL */
+
+h2 {
+    color: black;
+}
+
+.nombre {
+    color: #0c465e;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 30px;
+}    
+
+.contenedor {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #0c465e;
+}
+
+.seccion {
+    float: left;
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    background: #f2f2f2;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+th {
+    
+    padding: 5px;
+    border: 3px solid #0c465e;
+    border-radius: 5px;
+}
+
+td {
+    padding: 5px;
+}
+
+.perfil {
+    float: right;
+    margin-top: -15%;
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;    
+}
+
+#proyectos {
+    width: 92%; 
+    margin-bottom: 150px;
+}
+
+/* FORMULARIO */
+
+form {
+    background: white;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+input, textarea {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    background: #f2f2f2;
+    width: 70%;
+    margin: 5px;
+    padding: 15px;
+    border: 0px;
+}
+
+select {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background: #098eaf;
+    width: 70%;
+    margin: 10px;
+    padding: 15px;    
+    font-size: 14px;
+    cursor: pointer;
+    border: 0px;
+}
+
+
+.contacto {
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    transform: translate(0, 40%);
+
+}
+
+.mensaje {
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+.genero {
+    color: gray;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.genero p {
+    color: black;
+    font-size: 14px;
+    margin: 0px;
+}
+
+
+.ciudad {
+    font-size: 14px;
+    margin: 5px;
+}
+
+#contacto {
+    width: 20px;
+    margin: 0px;
+}
+
+#hombre, #mujer {
+    width: 15px;
+}
+
+/* EXTRA */
+
+.extra {
+    position: fixed;
+    float: right;
+    right: 0px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    transform: scaleX(-1);
+}
+
+/* FOOTER */
+
+.footer {
+    position: fixed;
+    font-family: 'Bebas Neue', sans-serif;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}

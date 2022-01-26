@@ -4,6 +4,7 @@
     
     <meta charset="UTF-8">
     <title>Presentación - Jesus Alejandro Garcia Perez</title>
+    <link rel="stylesheet" href="estilos.css">
     <link rel="shortcut icon" type="image/x-icon" href="https://i.pinimg.com/originals/5c/88/70/5c88706c77bcf7420d0bfbed4ef82aa8.gif" />
     
 </head>
@@ -21,7 +22,7 @@
    </header>
    
    <main>
-       <form action="#" method="get" >
+       <form class="contacto" action="#" method="get" >
           
           <h1>Contacto</h1>
           
@@ -38,15 +39,17 @@
                 <textarea id="comentario" placeholder="Comentario" required></textarea> <br>
            </label>  
            
-           <p>Genero</p>
+           <div class="genero">
+               <p>Genero</p>
 
-           <label for="hombre">
-               <input id="hombre" type="radio" name="sexo" value="hombre"> Hombre 
-            </label>
-            <label for="mujer">
-                <input id="mujer" type="radio" name="sexo" value="mujer"> Mujer
-            </label> <br>
-                
+               <label for="hombre">
+                   <input id="hombre" type="radio" name="sexo" value="hombre"> Hombre 
+                </label>
+                <label for="mujer">
+                    <input id="mujer" type="radio" name="sexo" value="mujer"> Mujer
+                </label> <br>
+           </div>           
+            
            <label for="ciudad">
              <p class="ciudad">Seleccione su ciudad</p>
               <select id="ciudad" required>
@@ -60,13 +63,15 @@
            
            <button type="submit">Enviar</button> <br>
            
-           <label for="contacto">
+           <label class="mensaje" for="contacto">
                <input id="contacto" type="checkbox"> Me interesa contactarte
            </label>
        </form>
    </main>
     
-    <footer>Jesus Alejandro Garcia Perez © <a href="mailto:j.alejandro.garcia.p@gmail.com"> ¡Contactanos!</a></footer>
+    
+    <img class="extra" src="https://i.gifer.com/XiPu.gif" alt="">
+    <footer class="footer">Jesus Alejandro Garcia Perez © <a href="mailto:j.alejandro.garcia.p@gmail.com"> ¡Contactanos!</a></footer>
    
 </body>
 </html>
